@@ -4,11 +4,12 @@ public class Product {
 private String title;
 private double price;
 private int quantity;
+
 public Product(double price, String title) {
 	this.price=price;
 	this.title=title;
-	
-}
+	}
+
 public String getTitle() {
 	return title;
 }

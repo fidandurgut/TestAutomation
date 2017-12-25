@@ -13,7 +13,6 @@ public class ProductPage extends BasePage {
 	private final By ADD_CART_UBB = By.id("add-to-cart-button-ubb");
 	private final By QUANTITY = By.id("quantity");
 	private final By NO_THANKS = By.id("siNoCoverage-announce");
-
 	private final By ADD_LIST = By.id("add-to-wishlist-button-submit");
 
 	public ProductPage(WebDriver driver) {
@@ -34,9 +33,7 @@ public class ProductPage extends BasePage {
 			}
 			count = Integer.parseInt(getSelectedDDLValue(QUANTITY));
 		}
-
 		return count;
-
 	}
 
 	public double expectedPrice(Product product) {
@@ -56,7 +53,6 @@ public class ProductPage extends BasePage {
 	}
 
 	public void doNotAcceptOptions() {
-
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {
@@ -65,5 +61,4 @@ public class ProductPage extends BasePage {
 		}
 		clickElement(NO_THANKS);
 	}
-
 }

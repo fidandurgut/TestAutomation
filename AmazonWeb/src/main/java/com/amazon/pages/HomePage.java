@@ -7,14 +7,10 @@ import com.amazon.base.page.BasePage;
 
 public class HomePage extends BasePage {
 
-	
 	private final By DDL_ACCOUNT = By.id("nav-link-accountList");
 	private final By DDL_DEPARTMENT = By.id("nav-link-shopall");
-
 	private final By BTN_CART = By.id("nav-cart-count");
-
 	private final By ELECTRONICS_COMPUTERS_OFFICE = By.cssSelector("span[data-nav-panelkey='ElectronicsComputersPanel']");
-
 	private final By CAMERAS_PHOTOS = By.cssSelector("a[href='/Camera-Photo-Film-Canon-Sony/b/ref=nav_shopall_p?ie=UTF8&node=502394']");
 
 	public HomePage(WebDriver driver) {
@@ -48,6 +44,5 @@ public class HomePage extends BasePage {
 	public void navigateToCart() {
 		System.out.println("Navigate to: Cart...");
 		clickElement(BTN_CART);
-
 	}
 }

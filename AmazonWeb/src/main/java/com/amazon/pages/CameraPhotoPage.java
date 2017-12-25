@@ -6,12 +6,11 @@ import org.openqa.selenium.WebDriver;
 import com.amazon.base.page.BasePage;
 import com.amazon.models.Product;
 
-public class CameraPhotoPage extends BasePage{
-	
+public class CameraPhotoPage extends BasePage {
 	private final By CAMERA_BEST_SELLERS = By.cssSelector("a[href='/gp/bestsellers/electronics/502394/ref=sv_camera_1']");
 	private final By LEFT_MENU_DIGITAL_CAMERAS = By.cssSelector("a[href='https://www.amazon.com/Best-Sellers-Electronics-Digital-Cameras/zgbs/electronics/281052/ref=zg_bs_nav_e_2_502394']");
 	private final By CAMERA_SELECTOR = By.cssSelector("#zg_centerListWrapper .zg_itemImmersion");
-	
+
 	public CameraPhotoPage(WebDriver driver) {
 		super(driver);
 	}

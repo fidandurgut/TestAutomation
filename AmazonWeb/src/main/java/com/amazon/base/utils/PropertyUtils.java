@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertyUtils {
-
 	private static PropertyUtils instance= new PropertyUtils();
 	private Properties properties = new Properties();
 	private String propFilePath = ".\\amazon.properties";
@@ -28,7 +27,6 @@ public class PropertyUtils {
 			e.printStackTrace();
 			throw e;
 		}
-
 	}
 
 	public static PropertyUtils getInstance(){
