@@ -1,7 +1,7 @@
 # TestAutomation
 Build with Maven using Java 8
 
-You can find the end to end test case ./AmazonWeb/src/test/java/com/amazon/shopping/test/ShoppingTest.java
+You can find the end to end test case [here](./AmazonWeb/src/test/java/com/amazon/shopping/test/ShoppingTest.java)
 
 This test includes all instructions:
 
